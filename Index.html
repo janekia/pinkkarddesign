@@ -1,376 +1,386 @@
 <!doctype html>
-<html lang="en" class="theme-soft-luxe"> <!-- Swap theme: theme-soft-luxe | theme-modern-min | theme-organic -->
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pinkkard Design</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <!-- Optional: Google Fonts for quick personality swaps -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- NAV -->
-  <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top" style="border-color: var(--pd-border) !important;">
-    <div class="container py-2">
-      <a class="navbar-brand fw-bold pd-display" href="#">
-  <img src="images/pinkkard_design_logo.png" alt="Pinkkard Design logo" style="height:80px;">
-</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Highlights</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-           <a class="nav-link" href="https://pinkkarddesignblog.site" target="_blank">Blog</a>
-        </ul>
-        <a href="#contact" class="btn pd-btn pd-btn-primary ms-lg-3">Get a Glow‑Up</a> 
-      <select id="pd-theme" class="form-select form-select-sm ms-lg-2 d-none d-lg-block" style="width:auto;min-width:130px">
-        <option value="theme-soft-luxe">Soft Luxe</option>
-        <option value="theme-modern-min">Modern Minimal</option>
-        <option value="theme-organic">Organic</option>
-      </select>
-      </div>
-    </div>
-  </nav>
+<html lang="en" class="theme-soft-luxe">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Pinkkard Design</title>
 
-  <!-- HERO -->
-  <header class="pd-section pd-hero">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6">
-          <span class="pd-pill mb-3">Fast, beautiful websites for small businesses on a budget.</span>
-          <h1 class="display-5 fw-bold pd-display mt-2">Look legit online — without the overwhelm.</h1>
-          <p class="lead mt-3 pd-muted">I transform DIY sites into polished, story‑driven brands that feel like <em>you</em>. Quick turnarounds. Clear pricing. Real results.</p>
-          <div class="d-flex gap-3 mt-4">
-            <a href="#contact" class="btn pd-btn pd-btn-primary btn-lg">Start your Glow‑Up</a>
-          <div class="d-flex align-items-center gap-3 mt-4">
-            <div class="pd-icon">★</div>
-            <div class="small pd-muted">2 clients/month • 10‑day 1‑pager • Friendly support</div>
-          </div>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your theme CSS (from previous message) -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts (optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top" style="border-color: var(--pd-border) !important;">
+      <div class="container py-2">
+        <a class="navbar-brand fw-bold pd-display" href="#">
+          <img src="images/pinkkard_design_logo.png" alt="Pinkkard Design logo" style="height:80px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pd-nav" aria-controls="pd-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="pd-nav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Highlights</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://pinkkarddesignblog.site" target="_blank" rel="noopener">Blog</a></li>
+          </ul>
+
+          <!-- Single CTA — no duplicate "Contact" in header -->
+          <a href="#contact" class="btn btn-pd btn-pd-primary ms-lg-3">Get a Glow-Up</a>
         </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="pd-section pd-hero pd-band">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="pd-chip mb-3">Fast, beautiful websites for small businesses on a budget</span>
+            <h1 class="pd-display mt-2">Look legit online — <span>without the overwhelm.</span></h1>
+            <p class="lead mt-3 pd-muted">
+              I transform DIY sites into polished, story-driven brands that feel like <em>you</em>.
+              Quick turnarounds. Upfront pricing. Real results.
+            </p>
+
+            <div class="d-flex flex-wrap align-items-center gap-3 mt-4 pd-cta-row">
+              <a href="#contact" class="btn btn-pd btn-pd-primary">Get a Glow-Up</a>
+              <a href="#services" class="btn btn-pd btn-pd-secondary">See Packages</a>
+              <div class="d-flex align-items-center gap-2">
+                <div class="pd-pill">Focused attention on every project • Clear pricing</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- SERVICES -->
-  <section id="services" class="pd-section">
-    <div class="container">
-      <div class="text-center mb-5">
-        <span class="pd-pill">Services</span>
-        <h2 class="pd-display fw-bold mt-3">Simple packages, clear results</h2>
-        <p class="pd-muted">Pick what fits now — expand later. No fluff.</p>
+    <!-- SERVICES -->
+    <section id="services" class="pd-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="pd-pill">Services</span>
+          <h2 class="pd-display fw-bold mt-3">Simple packages, clear results</h2>
+          <p class="pd-muted">Pick what fits now — expand later. No fluff.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pd-card p-4 h-100 pd-hover-raise card">
+              <div class="pd-badges mb-3"><span class="badge">1</span></div>
+              <h5 class="fw-bold">1-Page Glow-Up</h5>
+              <p class="pd-muted">Polish your existing site or launch a focused one-pager that sells. ~10-day delivery.</p>
+              <ul class="small mb-3 pd-muted">
+                <li>Brand styling + copy tweaks</li>
+                <li>Mobile polish + speed pass</li>
+                <li>CTA + contact form wired</li>
+              </ul>
+             <div class="mt-auto">
+                <span class="pd-price">$450</span>
+                <a href="#contact" class="btn btn-pd btn-pd-primary">Book</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pd-card p-4 h-100 pd-hover-raise card">
+              <div class="pd-badges mb-3"><span class="badge">2</span></div>
+              <h5 class="fw-bold">Revamp Lite</h5>
+              <p class="pd-muted">Take your Wix/Shopify/Squarespace from okay → professional. Keep your platform.</p>
+              <ul class="small mb-3 pd-muted">
+                <li>Layout refresh + visuals</li>
+                <li>Navigation + sections cleanup</li>
+                <li>Accessibility & SEO basics</li>
+              </ul>
+              <div class="mt-auto">
+                <div class="pd-price">$650</div>
+                <a href="#contact" class="btn btn-pd btn-pd-primary pd-cta mt-2">Details</a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="pd-card p-4 h-100 pd-hover-raise card">
+              <div class="pd-badges mb-3"><span class="badge">3</span></div>
+              <h5 class="fw-bold">Brand Starter</h5>
+              <p class="pd-muted">Logo refresh, color system, type pairing + a landing page that feels like you.</p>
+              <ul class="small mb-3 pd-muted">
+                <li>Mini brand kit (PDF)</li>
+                <li>Social + favicon set</li>
+                <li>1-page site build</li>
+              </ul>
+              <div class="mt-auto">
+                <span class="pd-price">$950</span>
+                <a href="#contact" class="btn btn-pd btn-pd-primary">Start</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="pd-card p-4 h-100 pd-hover-raise">
-            <div class="pd-icon mb-3">1</div>
-            <h5 class="fw-bold">1‑Page Glow‑Up</h5>
-            <p class="pd-muted">Polish your existing site or launch a focused one‑pager that sells. 10‑day delivery.</p>
-            <ul class="small mb-3 pd-muted">
-              <li>Brand styling + copy tweaks</li>
-              <li>Mobile polish + speed pass</li>
-              <li>CTA + contact form wired</li>
-            </ul>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="fw-bold">$450</span>
-              <a href="#contact" class="btn pd-btn pd-btn-primary">Book</a>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pd-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="pd-pill">Questions</span>
+          <h2 class="pd-display fw-bold mt-3">FAQ</h2>
+          <p class="pd-muted">Quick answers before we start.</p>
+        </div>
+
+        <div class="accordion" id="faq-accordion">
+          <div class="accordion-item pd-card">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1" aria-expanded="true" aria-controls="f1">
+                Do you revamp Wix/Shopify/Squarespace?
+              </button>
+            </h2>
+            <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion">
+              <div class="accordion-body pd-muted">Yes! Keep your platform—I'll polish layout, brand styling, speed, and mobile.</div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="pd-card p-4 h-100 pd-hover-raise">
-            <div class="pd-icon mb-3">2</div>
-            <h5 class="fw-bold">Revamp Lite</h5>
-            <p class="pd-muted">Take your Wix/Shopify/Squarespace from okay → professional. Keep your platform.</p>
-            <ul class="small mb-3 pd-muted">
-              <li>Layout refresh + visuals</li>
-              <li>Navigation + sections cleanup</li>
-              <li>Accessibility & SEO basics</li>
-            </ul>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="fw-bold">$650</span>
-              <a href="#contact" class="btn btn-outline-secondary" style="border-radius:.75rem;">Details</a>
+
+          <div class="accordion-item pd-card mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2" aria-expanded="false" aria-controls="f2">
+                How long does a 1-pager take?
+              </button>
+            </h2>
+            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body pd-muted">About 10 days once content is ready.</div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="pd-card p-4 h-100 pd-hover-raise">
-            <div class="pd-icon mb-3">3</div>
-            <h5 class="fw-bold">Brand Starter</h5>
-            <p class="pd-muted">Logo refresh, color system, type pairing + a landing page that feels like you.</p>
-            <ul class="small mb-3 pd-muted">
-              <li>Mini brand kit (PDF)</li>
-              <li>Social + favicon set</li>
-              <li>1‑page site build</li>
-            </ul>
-            <div class="d-flex justify-content-between align-items-center">
-              <span class="fw-bold">$950</span>
-              <a href="#contact" class="btn pd-btn pd-btn-primary">Start</a>
+
+          <div class="accordion-item pd-card mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3" aria-expanded="false" aria-controls="f3">
+                What’s the pricing?
+              </button>
+            </h2>
+            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body pd-muted">Clear packages: 1-Pager ($600), Revamp Lite ($950), Brand Starter ($1,400).</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
- <!-- FAQ -->
-<section class="pd-section" id="faq">
-  <div class="container">
-    <div class="text-center mb-5">
-      <span class="pd-pill">Questions</span>
-      <h2 class="pd-display fw-bold mt-3">FAQ</h2>
-      <p class="pd-muted">Quick answers before we start.</p>
-    </div>
+    <!-- PROCESS -->
+    <section id="process" class="pd-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="pd-pill">How it works</span>
+          <h2 class="pd-display fw-bold mt-3">A calm, 4-step process</h2>
+        </div>
 
-    <div class="accordion" id="faq">
-      <div class="accordion-item pd-card">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">
-            Do you revamp Wix/Shopify/Squarespace?
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="pd-card p-4 h-100"><div class="pd-icon mb-3">①</div><h6 class="fw-bold">Fit Check</h6><p class="pd-muted small mb-0">Quick call + site audit. Pick the right package.</p></div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="pd-card p-4 h-100"><div class="pd-icon mb-3">②</div><h6 class="fw-bold">Style Kit</h6><p class="pd-muted small mb-0">Colors, type, imagery — all aligned with your vibe.</p></div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="pd-card p-4 h-100"><div class="pd-icon mb-3">③</div><h6 class="fw-bold">Build</h6><p class="pd-muted small mb-0">Revamp or 1-pager built in Bootstrap / your platform.</p></div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="pd-card p-4 h-100"><div class="pd-icon mb-3">④</div><h6 class="fw-bold">Polish & Launch</h6><p class="pd-muted small mb-0">Mobile, speed, accessibility — then go live.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT HIGHLIGHTS -->
+    <section id="projects" class="pd-section">
+      <div class="container text-center">
+        <span class="pd-pill mb-3">Project Highlights</span>
+        <h2 class="pd-display fw-bold section-title">Recent Work</h2>
+        <p class="pd-muted mb-5">Swipe or click through to explore a few favorite builds.</p>
+
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <!-- PROJECT 1 -->
+            <div class="carousel-item active">
+              <div class="row align-items-center g-5 justify-content-center">
+                <div class="col-md-6">
+                  <div class="pd-card p-3 p-md-4 pd-hover-raise card">
+                      <a href="https://thevoicefitz.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="stretched-link d-block"
+                        aria-label="Open The Voice Fitz website">
+                        <img src="images/thevoicefitz.png"
+                            class="w-100 rounded-4 shadow-sm"
+                            alt="The Voice Fitz">
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-start">
+                  <h3 class="fw-bold">The Voice Fitz</h3>
+                  <p class="pd-muted">A professional portfolio site for a voice actor, featuring embedded demos and elegant branding.</p>
+                  <a href="https://thevoicefitz.com" target="_blank" rel="noopener" class="btn btn-pd btn-pd-primary">View Live Site</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="carousel-item">
+              <div class="row align-items-center g-5 justify-content-center">
+                <div class="col-md-6 order-md-2">
+                  <div class="pd-card p-3 p-md-4 pd-hover-raise card">
+                      <a href="https://lustrous-tartufo-53b14f.netlify.app/" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        aria-label="Open Naturally Glow’n Beauty demo store">
+                        <img src="images/NGB.png" 
+                            class="w-100 rounded-4 shadow-sm" 
+                            alt="Naturally Glow’n Beauty">
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-start">
+                  <h3 class="fw-bold">Naturally Glow’n Beauty</h3>
+                  <p class="pd-muted">An e-commerce skincare concept built for clarity and confidence, powered by Netlify and Bootstrap.</p>
+                  <a href="https://lustrous-tartufo-53b14f.netlify.app/" target="_blank" rel="noopener" class="btn btn-pd btn-pd-primary">Visit Site</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="carousel-item">
+              <div class="row align-items-center g-5 justify-content-center">
+                <div class="col-md-6">
+                  <div class="pd-card p-3 p-md-4 pd-hover-raise card">
+                    <a href="https://dippydoo.netlify.app/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      aria-label="Open DippyDoo demo store">
+                      <img src="images/Screenshot 2025-06-04 143003.png" 
+                          class="w-100 rounded-4 shadow-sm" 
+                          alt="DippyDoo Vintage Store">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 text-md-start">
+                  <h3 class="fw-bold">DippyDoo Vintage Store</h3>
+                  <p class="pd-muted">Playful e-commerce design inspired by 70s aesthetics. Integrated Reflow checkout & responsive product cards.</p>
+                  <a href="https://dippydoo.netlify.app/" target="_blank" rel="noopener" class="btn btn-pd btn-pd-primary">Shop the Demo</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- CONTROLS -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" aria-label="Previous project">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </button>
-        </h2>
-        <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq">
-          <div class="accordion-body pd-muted">Yes! Keep your platform—I'll polish layout, brand styling, speed, and mobile.</div>
-        </div>
-      </div>
-
-      <div class="accordion-item pd-card mt-3">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">
-            How long does a 1-pager take?
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next" aria-label="Next project">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
-        </h2>
-        <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq">
-          <div class="accordion-body pd-muted">About 10 days once content is ready.</div>
         </div>
       </div>
+    </section>
 
-      <div class="accordion-item pd-card mt-3">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">
-            What’s the pricing?
-          </button>
-        </h2>
-        <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faq">
-          <div class="accordion-body pd-muted">Clear packages: 1-Pager ($600), Revamp Lite ($950), Brand Starter ($1,400).</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <!-- PROCESS -->
-  <section id="process" class="pd-section">
-    <div class="container">
-      <div class="text-center mb-5">
-        <span class="pd-pill">How it works</span>
-        <h2 class="pd-display fw-bold mt-3">A calm, 4‑step process</h2>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-          <div class="pd-card p-4 h-100">
-            <div class="pd-icon mb-3">①</div>
-            <h6 class="fw-bold">Fit Check</h6>
-            <p class="pd-muted small mb-0">Quick call + site audit. Pick the right package.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="pd-card p-4 h-100">
-            <div class="pd-icon mb-3">②</div>
-            <h6 class="fw-bold">Style Kit</h6>
-            <p class="pd-muted small mb-0">Colors, type, imagery — all aligned with your vibe.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="pd-card p-4 h-100">
-            <div class="pd-icon mb-3">③</div>
-            <h6 class="fw-bold">Build</h6>
-            <p class="pd-muted small mb-0">Revamp or 1‑pager built in Bootstrap / your platform.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="pd-card p-4 h-100">
-            <div class="pd-icon mb-3">④</div>
-            <h6 class="fw-bold">Polish & Launch</h6>
-            <p class="pd-muted small mb-0">Mobile, speed, accessibility — then go live.</p>
+    <!-- TESTIMONIAL -->
+    <section id="testimonial" class="pd-section bg-cream">
+      <div class="container">
+        <div class="pd-card p-4 p-md-5 mx-auto card" style="max-width: 900px;">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-3 text-center">
+              <img class="rounded-circle img-fluid" style="width:96px;height:96px;object-fit:cover" src="images/fitz-gold-glasses.jpg" alt="Client portrait"/>
+            </div>
+            <div class="col-md-9">
+              <p class="fs-5 mb-1">“Pinkkard turned my DIY site into a brand I’m proud of. The process was calm, quick, and thoughtful.”</p>
+              <div class="pd-muted">— Fitzroy J, The Voice Fitz • Charlotte, NC</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
- <!-- PROJECT HIGHLIGHTS CAROUSEL -->
-<section id="projects" class="pd-section" style="background: var(--pd-surface);">
-  <div class="container text-center">
-    <span class="pd-pill mb-3">Project Highlights</span>
-    <h2 class="pd-display fw-bold">Recent Work</h2>
-    <p class="pd-muted mb-5">Swipe or click through to explore a few favorite builds.</p>
+    <!-- CONTACT -->
+    <section id="contact" class="pd-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="pd-pill">Let’s talk</span>
+          <h2 class="pd-display fw-bold mt-3">Tell me about your project</h2>
+          <p class="pd-muted">I reply within 1–2 business days. Simple and stress-free.</p>
+        </div>
 
-    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <!-- PROJECT 1 -->
-        <div class="carousel-item active">
-          <div class="row align-items-center g-5 justify-content-center">
-            <div class="col-md-6">
-              <div class="pd-card p-3 p-md-4 pd-hover-raise">
-                <img src="images/thevoicefitz.png" class="w-100 rounded-4" alt="The Voice Fitz">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Choose ONE handler — this uses FormSubmit (since it's in your original). Remove the web3forms hidden key. -->
+            <form action="https://formsubmit.co/pinkkarddesign@gmail.com" method="POST">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Name</label>
+                  <input class="form-control" name="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Website (optional)</label>
+                  <input class="form-control" name="website">
+                </div>
+                <div class="col-12">
+                  <label class="form-label">What do you need?</label>
+                  <textarea class="form-control" rows="4" name="message" placeholder="1-Pager, Revamp, or Brand Starter…"></textarea>
+                </div>
               </div>
-            </div>
-            <div class="col-md-6 text-md-start">
-              <h3 class="fw-bold">The Voice Fitz</h3>
-              <p class="pd-muted">A professional portfolio site for a voice actor, featuring embedded demos and elegant branding.</p>
-              <a href="http://thevoicefitz.com" target="_blank" class="btn pd-btn pd-btn-primary">View Live Site</a>
-            </div>
-          </div>
-        </div>
 
-        <!-- PROJECT 2 -->
-        <div class="carousel-item">
-          <div class="row align-items-center g-5 justify-content-center">
-            <div class="col-md-6 order-md-2">
-              <div class="pd-card p-3 p-md-4 pd-hover-raise">
-                <img src="images/NGB.png" class="w-100 rounded-4" alt="Naturally Glow’n Beauty">
+              <div class="d-flex justify-content-between align-items-center mt-4">
+                <div class="small pd-muted">Friendly support • Upfront pricing, zero guesswork</div>
+                <button class="btn btn-pd btn-pd-primary btn-lg" type="submit">Send</button>
               </div>
-            </div>
-            <div class="col-md-6 text-md-start">
-              <h3 class="fw-bold">Naturally Glow’n Beauty</h3>
-              <p class="pd-muted">An e-commerce skincare concept built for clarity and confidence, powered by Netlify and Bootstrap.</p>
-              <a href="https://lustrous-tartufo-53b14f.netlify.app/" target="_blank" class="btn pd-btn pd-btn-primary">Visit Site</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- PROJECT 3 -->
-        <div class="carousel-item">
-          <div class="row align-items-center g-5 justify-content-center">
-            <div class="col-md-6">
-              <div class="pd-card p-3 p-md-4 pd-hover-raise">
-                <img src="images/Screenshot 2025-06-04 143003.png" class="w-100 rounded-4" alt="DippyDoo">
-              </div>
-            </div>
-            <div class="col-md-6 text-md-start">
-              <h3 class="fw-bold">DippyDoo Vintage Store</h3>
-              <p class="pd-muted">Playful e-commerce design inspired by 70s aesthetics. Integrated Reflow checkout & responsive product cards.</p>
-              <a href="https://dippydoo.netlify.app/" target="_blank" class="btn pd-btn pd-btn-primary">Shop the Demo</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- CONTROLS -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-
-
-  <!-- TESTIMONIAL -->
-  <section class="pd-section" style="background: var(--pd-surface);" id="testimonial">
-    <div class="container">
-      <div class="pd-card p-4 p-md-5 mx-auto" style="max-width: 900px;">
-        <div class="row g-4 align-items-center">
-          <div class="col-md-3 text-center">
-            <img class="rounded-circle img-fluid" style="width:96px;height:96px;object-fit:cover" src="images/fitz-gold-glasses.jpg" alt="Client" />
-          </div>
-          <div class="col-md-9">
-            <p class="fs-5 mb-1">“Pinkkard turned my DIY site into a brand I’m proud of. The process was calm, quick, and thoughtful.”</p>
-            <div class="pd-muted">— Fitzroy J - The voice fitz, Charlotte NC</div>
+            </form>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="pd-section">
-    <div class="container">
-      <div class="text-center mb-5">
-        <span class="pd-pill">Let’s talk</span>
-        <h2 class="pd-display fw-bold mt-3">Tell me about your project</h2>
-        <p class="pd-muted">I reply within 1–2 business days. Simple and stress‑free.</p>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <form action="https://formsubmit.co/pinkkarddesign@gmail.com" method="POST">
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label class="form-label">Name</label>
-                <input class="form-control" name="name" required>
-              </div>
-              <div class="col-md-6">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" name="email" required>
-              </div>
-              <div class="col-12">
-                <label class="form-label">Website (optional)</label>
-                <input class="form-control" name="website">
-              </div>
-              <div class="col-12">
-                <label class="form-label">What do you need?</label>
-                <textarea class="form-control" rows="4" name="message" placeholder="1‑Pager, Revamp, or Brand Starter…"></textarea>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mt-4">
-              <div class="small pd-muted">2 spots/month • Clear pricing</div>
-              <button class="btn pd-btn pd-btn-primary btn-lg" type="submit">Send</button>
-            </div>
-          </form>
+    <!-- FOOTER -->
+    <footer class="py-5 border-top" style="border-color: var(--pd-border) !important;">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div class="pd-muted small">
+          © <span id="year"></span> Pinkkard Design • Charlotte, NC
+        </div>
+        <div class="d-flex gap-3">
+          <a href="https://www.instagram.com/pinkkarddesign/" class="pd-muted small text-decoration-none">Instagram</a>
+          <a href="https://www.linkedin.com/company/pinkkarddesign" class="pd-muted small text-decoration-none">LinkedIn</a>
+          <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577806331362" class="pd-muted small text-decoration-none">Facebook</a>
+          <a href="mailto:pinkkarddesign@gmail.com" class="pd-muted small text-decoration-none">Email</a>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- FOOTER -->
-  <footer class="py-5 border-top" style="border-color: var(--pd-border) !important;">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-      <div class="pd-muted small">© <span id="year"></span> Pinkkard Design • Charlotte, NC</div>
-      <div class="d-flex gap-3">
-        <a href="https://www.instagram.com/pinkkarddesign/" class="pd-muted small text-decoration-none">Instagram</a>
-        <a href="https://www.linkedin.com/company/pinkkarddesign" class="pd-muted small text-decoration-none">LinkedIn</a>
-        <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61577806331362" class="pd-muted small text-decoration-none">Facebook</a>
-        <a href="mailto:pinkkarddesign@gmail.com" class="pd-muted small text-decoration-none">Email</a>
-      </div>
-    </div>
-  </footer>
+    <!-- Tiny helpers -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    (function () {
-  const html = document.documentElement;
-  const switcher = document.getElementById('pd-theme');
-  if (!switcher) return;
-  const themes = ['theme-soft-luxe','theme-modern-min','theme-organic'];
-  function applyTheme(t){ themes.forEach(x=>html.classList.remove(x)); html.classList.add(t); }
-  switcher.addEventListener('change', ()=>{ applyTheme(switcher.value); localStorage.setItem('pdTheme', switcher.value); });
-  const saved = localStorage.getItem('pdTheme');
-  const initial = saved && themes.includes(saved) ? saved : (html.className.split(' ').find(c=>themes.includes(c)) || 'theme-soft-luxe');
-  applyTheme(initial); try { switcher.value = initial; } catch {}
-})();
-
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
