@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="theme-soft-luxe">
+ <html lang="en" class="theme-soft-luxe">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -410,45 +410,63 @@
 
     <!-- CONTACT -->
     <section id="contact" class="pd-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <span class="pd-pill">Let’s talk</span>
-          <h2 class="pd-display fw-bold mt-3">Tell me about your project</h2>
-          <p class="pd-muted">I reply within 1–2 business days. Simple and stress-free.</p>
-        </div>
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="pd-pill">Let’s talk</span>
+      <h2 class="pd-display fw-bold mt-3">Tell me about your project</h2>
+      <p class="pd-muted">I reply within 1–2 business days. Simple and stress-free.</p>
+    </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <!-- Choose ONE handler — this uses FormSubmit (since it's in your original). Remove the web3forms hidden key. -->
-            <form action="https://formsubmit.co/pinkkarddesign@gmail.com" method="POST">
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label">Name</label>
-                  <input class="form-control" name="name" required>
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Email</label>
-                  <input type="email" class="form-control" name="email" required>
-                </div>
-                <div class="col-12">
-                  <label class="form-label">Website (optional)</label>
-                  <input class="form-control" name="website">
-                </div>
-                <div class="col-12">
-                  <label class="form-label">What do you need?</label>
-                  <textarea class="form-control" rows="4" name="message" placeholder="1-Pager, Revamp, or Brand Starter…"></textarea>
-                </div>
-              </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <!-- Netlify form -->
+        <form 
+          name="contact"
+          method="POST"
+          netlify
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          action="/thankyou.html"
+          id="contactForm"
+        >
+          <!-- Required hidden field for Netlify -->
+          <input type="hidden" name="form-name" value="contact">
 
-              <div class="d-flex justify-content-between align-items-center mt-4">
-                <div class="small pd-muted">Friendly support • Upfront pricing, zero guesswork</div>
-                <button class="btn btn-pd btn-pd-primary btn-lg" type="submit">Send</button>
-              </div>
-            </form>
+          <!-- Honeypot field (anti-spam) -->
+          <p class="d-none">
+            <label>Don’t fill this out if you’re human:
+              <input name="bot-field">
+            </label>
+          </p>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Name</label>
+              <input class="form-control" name="name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Website (optional)</label>
+              <input class="form-control" name="website">
+            </div>
+            <div class="col-12">
+              <label class="form-label">What do you need?</label>
+              <textarea class="form-control" rows="4" name="message" placeholder="1-Pager, Revamp, or Brand Starter…"></textarea>
+            </div>
           </div>
-        </div>
+
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div class="small pd-muted">Friendly support • Upfront pricing, zero guesswork</div>
+            <button class="btn btn-pd btn-pd-primary btn-lg" type="submit">Send</button>
+          </div>
+        </form>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!-- FOOTER -->
     <footer class="py-5 border-top" style="border-color: var(--pd-border) !important;">
