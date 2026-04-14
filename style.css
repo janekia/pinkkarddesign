@@ -326,3 +326,33 @@ a:hover{ color: var(--pd-gold); }
 .pd-chip {
   font-size: 0.85rem;
 }
+
+#projects .carousel-item {
+  padding: 0.5rem 0;
+}
+
+#projects .pd-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#projects .project-copy {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+#projects .project-copy .btn {
+  width: auto;
+  min-width: 180px;
+}
+
+@media (max-width: 767.98px) {
+  #projects .project-copy {
+    margin-top: 1rem;
+  }
+
+  #projects .project-copy .btn {
+    width: 100%;
+  }
+}
