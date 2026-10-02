@@ -1,82 +1,90 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/theme/creative/)
+# PinkkardDesign
 
-[Creative](https://startbootstrap.com/theme/creative/) is a one page, creative website theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+The website for PinkkardDesign LLC, a Black-owned web design
+business founded by Janekia Pinkard.
 
-## Preview
+PinkkardDesign creates websites, redesigns, and online stores
+for small businesses, organizations, and personal brands.
 
-[![Creative Preview](https://assets.startbootstrap.com/img/screenshots/themes/creative.png)](https://startbootstrap.github.io/startbootstrap-creative/)
+## Website
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-creative/)**
+https://pinkkarddesign.com/
 
-## Status
+## Pages
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
+- Home/About — introduction to PinkkardDesign and its owner
+- Services — website design, redesigns, online stores, and support
+- Portfolio — selected client projects
+- Featured Project — The Voice Fitz website customization
+- Contact — project inquiries through Netlify Forms
+- 404 — custom page for missing URLs
 
-## Download and Installation
+## Portfolio Projects
 
-To begin using this template, choose one of the following options to get started:
+- The Voice Fitz — https://thevoicefitz.com/
+- The Licensed Healer — https://thelicensedhealer.com/
+- Island Landscape — https://islandlandscape.us/
+- Queen City Discipleship — https://www.qcdfam.org/
+- WS Watches — https://wswatchesllc.com/
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/creative/)
-- Install using npm: `npm i startbootstrap-creative`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-creative.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-creative)
+## Built With
 
-## Usage
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Netlify Forms
 
-### Basic Usage
+## Design
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+The site includes pink brand accents, page-specific masthead
+images, responsive navigation, and project galleries.
 
-### Advanced Usage
+## SEO
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+- Page titles and meta descriptions
+- Canonical URLs
+- Open Graph sharing tags
+- Organization structured data
+- XML sitemap
+- robots.txt
 
-#### npm Scripts
+## Contact Form
 
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+The contact page uses Netlify Forms.
 
-You must have npm installed in order to use this build environment.
+Form detection must be enabled in Netlify, and the site must
+be deployed for Netlify to register the form.
 
-### Contact Form
+Email notifications are configured in the Netlify dashboard.
+Test submissions on the deployed website.
 
-The contact form available with this theme is prebuilt to use [SB Forms](https://startbootstrap.com/solution/contact-forms).
-SB Forms is a simple form solution for adding functional forms to your theme. Since this theme is prebuilt using our
-SB Forms markup, all you need to do is sign up for [SB Forms on Start Bootstrap](https://startbootstrap.com/solution/contact-forms).
+## Editing
 
-After signing up you will need to set the domain name your form will be used on, and you will then see your
-access key. Copy this and paste it into the `data-sb-form-api-token='API_TOKEN'` data attribute in place of
-`API_TOKEN`. That's it! Your forms will be up and running!
+Edit the HTML files to update page content.
 
-If you aren't using SB Forms, simply delete the custom data attributes from the form, and remove the link above the
-closing `</body>` tag to SB Forms.
+Shared styles are located in `css/styles.css`.
+Project screenshots and masthead images referenced by the
+pages are located in `src/assets/`.
 
-## Bugs and Issues
+Preview through a local web server, such as VS Code Live Server,
+and check the deployed site after publishing.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-creative/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/creative/).
+## Contact
 
-## About
+Email: info@pinkkarddesign.com
 
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Instagram: https://www.instagram.com/pinkkarddesign/
 
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
+## Theme Attribution
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+This website was customized from the Creative theme by
+Start Bootstrap.
 
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
+Theme: https://startbootstrap.com/theme/creative/
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Retain the original theme's LICENSE file and copyright notice
+with the theme code.
 
-## Copyright and License
-
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE) license.
+Original theme copyright: Start Bootstrap LLC.
+Original theme code licensed under the MIT License.
