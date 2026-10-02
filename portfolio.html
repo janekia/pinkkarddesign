@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+        name="description"
+        content="Explore PinkkardDesign’s website portfolio, featuring personal brands, service businesses, and community organizations."
+    />
+    <meta name="author" content="Janekia Pinkard" />
+
+    <title>Website Design Portfolio | PinkkardDesign</title>
+    <link rel="canonical" href="https://pinkkarddesign.com/portfolio.html" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/src/assets/favicon-32x32.png" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
+        rel="stylesheet"
+    />
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet"
+    />
+
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Social sharing preview -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PinkkardDesign" />
+<meta
+    property="og:title"
+    content="Website Portfolio | PinkkardDesign"
+/>
+<meta
+    property="og:description"
+    content="Thoughtful websites for small businesses, organizations, and personal brands. Let’s bring your ideas online."
+/>
+<meta property="og:url" content="https://pinkkarddesign.com//portfolio.html" />
+<meta
+    property="og:image"
+    content="https://pinkkarddesign.com/src/assets/portfolio-masthead.jpg"
+/>
+<meta
+    property="og:image:alt"
+    content="PinkkardDesign homepage masthead"
+/>
+
+    <style>
+        #mainNav {
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #mainNav .navbar-brand,
+        #mainNav .navbar-nav .nav-item .nav-link {
+            color: #212529 !important;
+        }
+
+        #mainNav .navbar-nav .nav-item .nav-link:hover,
+        #mainNav .navbar-nav .nav-item .nav-link:focus {
+            color: var(--bs-primary, #f4623a) !important;
+        }
+
+        #portfolio {
+            scroll-margin-top: 5rem;
+        }
+
+        .portfolio-intro {
+            max-width: 700px;
+        }
+
+        .project-card {
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid #e9ecef;
+            border-radius: 1rem;
+            background-color: white;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .project-preview {
+            position: relative;
+            aspect-ratio: 16 / 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color: #f1f3f5;
+            padding: 2rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .project-preview span {
+            font-family: "Merriweather Sans", sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #495057;
+            text-align: center;
+        }
+
+        .project-preview img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .project-preview img[hidden] {
+            display: none;
+        }
+
+        .project-body {
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .project-category {
+            font-family: "Merriweather Sans", sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .project-body p {
+            line-height: 1.7;
+        }
+
+        .project-body .btn {
+            align-self: flex-start;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+        aria-label="Main navigation"
+    >
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">
+                PinkkardDesign
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="portfolio.html"
+                            aria-current="page"
+                        >
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="featuredProject.html">
+                            Featured Project
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Masthead -->
+        <header class="masthead masthead-portfolio">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-9 align-self-end">
+                        <h1 class="text-white fw-bold">
+                            Different Brands. Thoughtful Design.
+                        </h1>
+                        <hr class="divider" />
+                    </div>
+
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">
+                            Explore a selection of my website projects,
+                            each shaped around the people and ideas
+                            behind the brand.
+                        </p>
+
+                        <a class="btn btn-primary btn-xl" href="#portfolio">
+                            Explore My Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Portfolio -->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">A Look at My Work</h2>
+                <hr class="divider" />
+
+                <p class="portfolio-intro text-muted text-center mx-auto mb-5">
+                    From personal brands to local businesses and community
+                    organizations, these projects show the variety of
+                    websites I work on.
+                </p>
+
+                <div class="row g-4 justify-content-center">
+                    <!-- The Voice Fitz -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="project-card d-flex flex-column">
+                            <div class="project-preview">
+                                <span aria-hidden="true">
+                                    The Voice Fitz
+                                </span>
+
+                                <img
+                                    src="/src/assets/fiz.png"
+                                    alt="The Voice Fitz website preview"
+                                    loading="lazy"
+                                    onerror="this.hidden = true;"
+                                />
+                            </div>
+
+                            <div class="project-body">
+                                <p class="project-category text-primary mb-2">
+                                    Website Customization
+                                </p>
+
+                                <h3 class="h4 mb-3">The Voice Fitz</h3>
+
+                                <p class="text-muted mb-4">
+                                    Customized an existing website with
+                                    an updated background video, services,
+                                    acting credits, skills, audio samples,
+                                    and photographs.
+                                </p>
+
+                                <a
+                                    class="btn btn-outline-dark"
+                                    href="https://thevoicefitz.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Website
+                                    <span class="visually-hidden">
+                                        — The Voice Fitz (opens in a new tab)
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- The Licensed Healer -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="project-card d-flex flex-column">
+                            <div class="project-preview">
+                                <span aria-hidden="true">
+                                    The Licensed Healer
+                                </span>
+
+                                <img
+                                    src="/src/assets/thehealer.png"
+                                    alt="The Licensed Healer website preview"
+                                    loading="lazy"
+                                    onerror="this.hidden = true;"
+                                />
+                            </div>
+
+                            <div class="project-body">
+                                <p class="project-category text-primary mb-2">
+                                    Personal Brand &amp; Services
+                                </p>
+
+                                <h3 class="h4 mb-3">The Licensed Healer</h3>
+
+                                <p class="text-muted mb-4">
+                                    A welcoming website for Joy Miller’s
+                                    brand, bringing her story and services
+                                    together with a calm, intentional
+                                    visual style.
+                                </p>
+
+                                <a
+                                    class="btn btn-outline-dark"
+                                    href="https://thelicensedhealer.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Website
+                                    <span class="visually-hidden">
+                                        — The Licensed Healer (opens in a new tab)
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Island Landscape -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="project-card d-flex flex-column">
+                            <div class="project-preview">
+                                <span aria-hidden="true">
+                                    Island Landscape
+                                </span>
+
+                                <img
+                                    src="/src/assets/davessite.png"
+                                    alt="Island Landscape website preview"
+                                    loading="lazy"
+                                    onerror="this.hidden = true;"
+                                />
+                            </div>
+
+                            <div class="project-body">
+                                <p class="project-category text-primary mb-2">
+                                    Landscaping Business
+                                </p>
+
+                                <h3 class="h4 mb-3">Island Landscape</h3>
+
+                                <p class="text-muted mb-4">
+                                    A business website introducing Island
+                                    Landscape and its services, with a
+                                    clear path for visitors to get in touch.
+                                </p>
+
+                                <a
+                                    class="btn btn-outline-dark"
+                                    href="https://islandlandscape.us/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Website
+                                    <span class="visually-hidden">
+                                        — Island Landscape (opens in a new tab)
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Queen City Discipleship -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="project-card d-flex flex-column">
+                            <div class="project-preview">
+                                <span aria-hidden="true">
+                                    Queen City Discipleship
+                                </span>
+
+                                <img
+                                    src="/src/assets/qfm.png"
+                                    alt="Queen City Discipleship website preview"
+                                    loading="lazy"
+                                    onerror="this.hidden = true;"
+                                />
+                            </div>
+
+                            <div class="project-body">
+                                <p class="project-category text-primary mb-2">
+                                    Church &amp; Community
+                                </p>
+
+                                <h3 class="h4 mb-3">
+                                    Queen City Discipleship
+                                </h3>
+
+                                <p class="text-muted mb-4">
+                                    A church website redesign focused on
+                                    clear navigation and a welcoming
+                                    presentation for visitors and the
+                                    church community.
+                                </p>
+
+                                <a
+                                    class="btn btn-outline-dark"
+                                    href="https://www.qcdfam.org/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Website
+                                    <span class="visually-hidden">
+                                        — Queen City Discipleship
+                                        (opens in a new tab)
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- WS Watches -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="project-card d-flex flex-column">
+                            <div class="project-preview">
+                                <span aria-hidden="true">
+                                    WS Watches
+                                </span>
+
+                                <img
+                                    src="/src/assets/wswatches.png"
+                                    alt="WS Watches website preview"
+                                    loading="lazy"
+                                    onerror="this.hidden = true;"
+                                />
+                            </div>
+
+                            <div class="project-body">
+                                <p class="project-category text-primary mb-2">
+                                    Brand Launch Page
+                                </p>
+
+                                <h3 class="h4 mb-3">WS Watches</h3>
+
+                                <p class="text-muted mb-4">
+                                    A coming-soon website created to
+                                    introduce the WS Watches brand and
+                                    establish its online presence ahead
+                                    of the store launch.
+                                </p>
+
+                                <a
+                                    class="btn btn-outline-dark"
+                                    href="https://wswatchesllc.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Visit Website
+                                    <span class="visually-hidden">
+                                        — WS Watches (opens in a new tab)
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact invitation -->
+        <section class="page-section">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-3">
+                    Let’s Create Something for Your Brand
+                </h2>
+
+                <p class="text-muted mb-4">
+                    Have an idea for your own website?
+                    I’d love to hear about it.
+                </p>
+
+                <a class="btn btn-primary btn-xl" href="contact.html">
+                    Tell Me About Your Project
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <div class="text-center mb-3">
+    <a
+        href="https://www.instagram.com/pinkkarddesign/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Follow PinkkardDesign on Instagram
+        <span class="visually-hidden">(opens in a new tab)</span>
+    </a>
+</div>
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">
+                Copyright &copy; 2026 PinkkardDesign LLC
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap handles the mobile navigation -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
