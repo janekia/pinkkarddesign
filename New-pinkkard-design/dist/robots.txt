@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pinkkarddesign.com/sitemap.xml
