@@ -6,12 +6,12 @@
     <meta name="robots" content="noindex" />
     <meta name="author" content="Janekia Pinkard" />
 
-     <link rel="icon" type="image/png" href="/src/assets/favicon-32x32.png" />
-
+    
     <title>Page Not Found | PinkkardDesign</title>
 
     <!-- Absolute paths keep assets working on missing URLs -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    
+    <link rel="icon" type="image/png" href="/src/assets/favicon-32x32.png" />
 
     <link
         href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
@@ -67,58 +67,72 @@
 <body id="page-top">
     <!-- Navigation -->
     <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
-        id="mainNav"
-        aria-label="Main navigation"
-    >
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="/index.html">
-                PinkkardDesign
-            </a>
+    class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+    id="mainNav"
+    aria-label="Main navigation"
+>
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">PinkkardDesign</a>
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html#about">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/services.html">
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portfolio.html">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/featuredProject.html">
-                            Featured Project
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="featuredProject.html">Featured Project</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="contactDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        Contact
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+                        <li>
+                            <a class="dropdown-item" href="contact.html">
+                                Contact Me
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="terms.html">
+                                Terms &amp; Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="privacy.html">
+                                Privacy Policy
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <main>
         <!-- Masthead -->
@@ -139,11 +153,11 @@
                 </p>
 
                 <div class="d-flex flex-wrap justify-content-center gap-3">
-                    <a class="btn btn-primary btn-xl" href="/index.html">
+                    <a class="btn btn-primary btn-xl" href="/">
                         Back to Home
                     </a>
 
-                    <a class="btn btn-light btn-xl" href="/contact.html">
+                    <a class="btn btn-light btn-xl" href="contact.html">
                         Contact Me
                     </a>
                 </div>
@@ -154,22 +168,34 @@
     <!-- Footer -->
 
     <div class="text-center mb-3">
-    <a
-        href="https://www.instagram.com/pinkkarddesign/"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        Follow PinkkardDesign on Instagram
-        <span class="visually-hidden">(opens in a new tab)</span>
-    </a>
-</div>
-    <footer class="bg-light py-4">
-        <div class="container px-4 px-lg-5">
-            <div class="small text-center text-muted">
-                Copyright &copy; 2026 PinkkardDesign LLC
-            </div>
+   
+    <footer class="py-4">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="mb-3">
+            <a
+                href="https://www.instagram.com/pinkkarddesign/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Follow PinkkardDesign on Instagram
+                <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
         </div>
-    </footer>
+
+        <nav
+            aria-label="Footer navigation"
+            class="d-flex flex-wrap justify-content-center gap-3 mb-3"
+        >
+            <a href="contact.html">Contact</a>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+
+        <div class="small text-muted">
+            Copyright &copy; 2026 PinkkardDesign LLC
+        </div>
+    </div>
+</footer>
 
     <!-- Bootstrap handles the mobile navigation -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
